@@ -1,0 +1,61 @@
+﻿<Page
+    x:Class="Biletomat.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Biletomat"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+<Grid.RowDefinitions>
+    <RowDefinition Height="*"/>
+    <RowDefinition Height="100"/>
+</Grid.RowDefinitions>
+        <WebView Name="Widok" Grid.Row="0" Source="http://localhost/web_app"  DOMContentLoaded="Widok_OnFrameDOMContentLoaded"/>
+        
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+
+            <Button Name="WyborBiletu"
+                                    Tapped="OnWyborBiletu"
+                                    Content="Wybór biletu"
+                                    HorizontalAlignment="Right"
+                                    VerticalAlignment="Top"
+                                    Width="220"
+                                    Height="60"
+                                    FontSize="20"
+                                    Margin="10"/>
+            <Button Name="RozkladJazdy"
+                                    Tapped="OnRozkladJazdy"
+                                    Content="Rozkład jazdy"
+                                    HorizontalAlignment="Right"
+                                    VerticalAlignment="Top"
+                                    Width="220"
+                                    Height="60"
+                                    FontSize="20"
+                                    Margin="10"/>
+
+            <Button Name="Serwis"
+                                    Tapped="OnSerwis"
+                                    Content="Serwis"
+                                    HorizontalAlignment="Right"
+                                    VerticalAlignment="Top"
+                                    Width="220"
+                                    Height="60"
+                                    FontSize="20"
+                                    Margin="10"/>
+
+            <Button Name="Zaplata"
+                                    Tapped="OnZaplata"
+                                    Content="Zapłać za bilety"
+                                    HorizontalAlignment="Right"
+                                    VerticalAlignment="Top"
+                                    Width="220"
+                                    Height="60"
+                                    FontSize="20"
+                                    Margin="10"/>
+
+        </StackPanel>
+    </Grid>
+</Page>
