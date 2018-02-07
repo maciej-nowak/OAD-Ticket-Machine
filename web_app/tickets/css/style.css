@@ -1,0 +1,148 @@
+body{
+	max-width: 800px;
+	max-height: 800px;
+}
+
+.wrapper{
+	position: relative;
+}
+
+.ramka{
+	border-width: thick;
+	border-style: solid;
+	border-color: #00bfff;
+	font-style: normal;
+	width: 700px;
+	height: 620px;
+}
+
+.image{
+	max-width:60px;
+	top: 15px;
+	left: 640px;
+	position: absolute;
+}
+
+.naglowek {
+	white-space: pre;
+	font-family: Arial;
+	font-size: 24px;
+	background-color:#1e62d0;
+	padding: px 5px;
+	height: 84px;
+	color: #ffffff;
+	position: relative;
+	width: 100%;
+	display:inline-table;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.informacja {
+	white-space: pre;
+	font-family: Arial;
+	font-size: 24px;
+	background-color:#ffff66;
+	padding: px 5px;
+	height: 84px;
+	color: #ffffff;
+	position: relative;
+	width: 100%;
+	display:inline-table;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.odstep {
+	position: relative;
+	left: 250px;
+}
+
+.odstep2 {
+	position: relative;
+	left: 130px;
+}
+
+.odstep3 {
+	position: relative;
+	left: 200px;
+}
+
+.button1 {
+	background-color:#1e62d0;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	text-align: center;
+	padding:5px 5px;
+	height:50px;
+	width:300px;
+	position: relative;
+	left: 10%;
+	text-decoration:none;
+}
+
+.button2 {
+	background-color:#1e62d0;
+	border-radius:5px;
+	display:inline-table;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:16px;
+	text-align: left;
+	padding:5px 5px;
+	height:60px;
+	width:300px;
+	position: relative;
+	left: 5%;
+	text-decoration:none;
+	white-space: pre;
+}
+
+.button3 {
+	background-color:#00bfff;
+	border-radius:5px;
+	display:inline-table;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:16px;
+	text-align: left;
+	padding:5px 5px;
+	height:60px;
+	width:300px;
+	position: relative;
+	left: 5%;
+	text-decoration:none;
+	white-space: pre;
+}
+
+.button4 {
+	background-color:#1e62d0;
+	border-radius:5px;
+	display:inline-table;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	text-align: center;
+	padding:5px 5px;
+	height:60px;
+	width:150px;
+	position: relative;
+	left: -35%;
+	text-decoration:none;
+	white-space: pre;
+}
+
+
